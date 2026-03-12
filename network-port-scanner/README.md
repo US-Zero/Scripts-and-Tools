@@ -1,28 +1,23 @@
-Multi-Threaded Network Port Scanner
+Multi-Threaded Network Port Scanner :
 A high-performance Python utility designed to identify open TCP ports on a target host. This project demonstrates the practical application of Socket Programming and Concurrency in network security.
 
 Features:
-Fast Execution: Implements ThreadPoolExecutor to perform concurrent scans, significantly reducing the time required to check 1,024+ ports.
-
-TCP Handshake Logic: Utilizes the full TCP three-way handshake to accurately determine port status.
-
-Dynamic Input: Features a Command Line Interface (CLI) for targeting specific IP addresses or hostnames.
-
-Error Handling: Robust exception management for network timeouts and unreachable hosts.
+1)Fast Execution: Implements ThreadPoolExecutor to perform concurrent scans, significantly reducing the time required to check 1,024+ ports.
+2)TCP Handshake Logic: Utilizes the full TCP three-way handshake to accurately determine port status.
+3)Dynamic Input: Features a Command Line Interface (CLI) for targeting specific IP addresses or hostnames.
+4)Error Handling: Robust exception management for network timeouts and unreachable hosts.
 
 Technical Stack : 
 Language: Python 3.x
-
 Libraries: socket (Network communication), concurrent.futures (Multi-threading)
 
 How to Run:
 Clone the repository:
-
 Bash
-git clone https://github.com/YOUR_USERNAME/tools-and-scripts.git
+git clone https://github.com/US-Zero/tools-and-scripts.git
 cd tools-and-scripts/network-port-scanner
-Execute the script:
 
+Execute the script:
 Bash
 python3 scanner.py
 Enter Target: Input the IP address (e.g., 127.0.0.1) or hostname (e.g., scanme.nmap.org) when prompted.
