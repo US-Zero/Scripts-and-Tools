@@ -7,9 +7,9 @@ This repository serves as a centralized hub for various security utilities. Each
 
 ## Repository Structure
 
-| Tool Name | Description | Category | Status |
-| [ Network Port Scanner](./network-port-scanner) | Multi-threaded TCP discovery tool using Socket API. | Network Security | Complete |
-| [ Hash Cracker] | Python-based utility for credential auditing. | Password Security | Planning |
+* | Tool Name | Description | Category | Status |
+* | [ Network Port Scanner](./network-port-scanner) | Multi-threaded TCP discovery tool using Socket API. | Network Security | Complete |
+* | [ Hash Cracker] | Python-based utility for credential auditing. | Password Security | Planning |
 
 ---
 
