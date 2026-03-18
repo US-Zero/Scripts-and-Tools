@@ -17,5 +17,5 @@ This repository serves as a centralized hub for various security utilities. Each
 To use any of the tools in this repository, clone the main branch and navigate to the specific tool's directory:
 
 ```bash
-git clone [https://github.com/US-Zero/Scripts-and-Tools.git](https://github.com/US-Zero/Scripts-and-Tools.git)
+git clone [https://github.com/US-Zero/Scripts-and-Tools.git]
 cd Scripts-and-Tools/[TOOL_FOLDER_NAME]
